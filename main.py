@@ -48,7 +48,6 @@ def classify_and_respond(user_input):
 
     return response
 
-# Example usage
 while True:
     user_input = input("You: ")
     if user_input.lower() in ["quit", "exit"]:
