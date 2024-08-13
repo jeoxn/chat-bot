@@ -27,7 +27,7 @@ encoded_tags = label_encoder.fit_transform(tags)
 vectorizer = TfidfVectorizer()
 X = vectorizer.fit_transform(sentences)
 
-# Create and train the KNN model
+# Create and train the RF model
 model = RandomForestClassifier()
 model.fit(X, encoded_tags)
 
